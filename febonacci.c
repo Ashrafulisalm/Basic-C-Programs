@@ -7,10 +7,9 @@ void main(){
     f0=0;f1=1;
     printf("\n Febonacci series :");
     for(i=0;i<n;i++){
+        printf("%d ",f0);
         f=f0+f1;
         f0=f1;
         f1=f;
-
-        printf("%d ",f1);
     }
 }
